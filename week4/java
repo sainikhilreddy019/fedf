@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Basics</title>
+</head>
+<body>
+    <h1>Hello from JavaScript 👋</h1>
+    <p id="message">This will be replaced by JavaScript.</p>
+
+    <script>
+        // Print to the console
+        console.log("JavaScript is running!");
+
+        // Change text on the page
+        document.getElementById("message").innerHTML = "JavaScript works on every laptop!";
+
+        // Simple calculation
+        let a = 10, b = 5;
+        let sum = a + b;
+        alert("The sum of " + a + " and " + b + " is " + sum);
+
+        // A loop
+        for (let i = 1; i <= 3; i++) {
+            console.log("Count: " + i);
+        }
+    </script>
+</body>
+</html>
